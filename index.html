@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Autobiography Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #6d2b44;
+    background-color: #fff;
+}
+
+
+header {
+    background: linear-gradient(to right, #3c3cff, #1f1f4d);
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+}
+
+header h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f5f0e6;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(50, 36, 30);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+
+article h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    
+}
+
+article h3 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+
+
+.profile {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.profile img {
+    width: 120px;
+    border: 1px solid #462121;
+}
+
+
+p {
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+
+#hobbies section {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+
+.favorites-grid {
+    display: block;
+}
+
+.favorites-grid figure {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.favorites-grid img {
+    width: 120px;
+    border: 1px solid #000;
+}
+
+
+figcaption {
+    font-size: 13px;
+}
+
+
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 2px solid #000;
+    text-align: center;
+    font-size: 12px;
+}
+
+    </style>
+
+</head>
+<body>
+
+    
+  
+<!-- HEADER -->
+    <header>
+        <h1>My Autobiography</h1>
+     <nav>
+            <ul>
+                <li><a href="#about">About Myself</a></li>
+                <li><a href="#hobbies">My Hobbies</a></li>
+                <li><a href="#favorites">My Favorites</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- ABOUT MYSELF -->
+        <article id="about">
+            <h2>About Myself</h2>
+
+            <section class="profile">
+                <figure>
+                    <img src="myphoto.jpg" alt="My Profile Picture">
+                    <figcaption>My Profile</figcaption>
+                </figure>
+
+                <section class="info">
+                    <p><strong>Name:</strong> Cherry mae G. Tindugan</p>
+                    <p><strong>Birthdate:</strong> January 10, 2006</p>
+                    <p><strong>Address:</strong> Butuan</p>
+                    <p><strong>Job:</strong> Student</p>
+                </section>
+            </section>
+
+            <section>
+                <h3>My Childhood</h3>
+                <p>
+                    My childhood was full of joys,happiness and memorable past .
+                </p>
+            </section>
+
+            <section>
+                <h3>My Teenage Life</h3>
+                <p>
+                    During my teenage years, I discovered my interests, hobbies, and goals in life.
+                </p>
+            </section>
+
+            <section>
+                <h3>My Adulthood</h3>
+                <p>
+                    I grow older, I aim to improve myself, especially in my studies and future career.
+                </p>
+            </section>
+        </article>
+<hr>
+        <!-- MY HOBBIES -->
+        <article id="hobbies">
+            <h2>My Hobbies</h2>
+
+            <section>
+                <h3>My Hobbies Inside our Home</h3>
+                <ul>
+                    <li>Watching anime/k-drama</li>
+                    <li>cooking </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>My Hobbies Outside our Home</h3>
+                <ul>
+                    <li>Walking</li>
+                    <li>Spending time with friends</li>
+                    <li>playing volleyball</li>
+                </ul>
+            </section>
+        </article>
+<hr>
+        <!-- MY FAVORITES -->
+        <article id="favorites">
+            <h2>My Favorites</h2>
+
+            <section class="favorites-grid">
+                <figure>
+                    <img src="SZA.jpg" alt="My Favorite Artist">
+                    <figcaption>
+                        <strong>My Favorite Artist</strong>
+                        <p>My favorite artist is SZA. I admire this artist because of her voice and her music.</p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="Food.webp" alt="My Favorite Food">
+                    <figcaption>
+                        <strong>My Favorite Food</strong>
+                        <p>This is my favorite food because it is delicious and comforting.</p>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="Surigao.jpg" alt="My Favorite Place">
+                    <figcaption>
+                        <strong>My Favorite Place</strong>
+                        <p>My favorite place is Surigao because of its powdery white sand, crystal-clear waters,
+                             and relaxing.</p>
+                    </figcaption>
+                </figure>
+            </section>
+        </article>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+              <p>&copy; 2026 Tindugan. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
